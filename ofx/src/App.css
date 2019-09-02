@@ -1,0 +1,116 @@
+h1,
+p {
+	font-family: Helvetica, sans-serif;
+	;
+}
+
+.d-flex,
+.container {
+	margin-top: 5%;
+}
+
+.qouteForm,
+.resultDiv {
+	background: rgba(211, 211, 211, 0.3);
+}
+
+.qouteForm {
+	padding: 20px;
+}
+
+.resultDiv {
+	padding: 20px 80px;
+}
+
+hr {
+	color: red;
+	height: 10px;
+	width: 100%;
+}
+
+.requiredField {
+	color: red;
+}
+
+label {
+	margin-bottom: 0px;
+}
+
+.errorMessageCurr span,
+.errorMessage,
+.exceptionAPI {
+	color: red;
+	font-style: italic;
+}
+
+.errorMessageCurr {
+	margin-top: -1rem;
+	margin-bottom: 1rem;
+}
+
+.submitBtn {
+	border-radius: 100px 100px 100px 100px;
+	background: #03648d;
+	text-transform: uppercase;
+	font-size: smaller;
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 700;
+	width: fit-content;
+	border: 1px solid transparent;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-left: auto;
+	color: #fff;
+	margin: 16px 8px;
+	margin-right: auto;
+}
+
+.conversionRate {
+	color: #5eafaa;
+	font-size: 38px;
+}
+
+.calculatedAmount {
+	color: #02a0c3;
+}
+
+.currencyCode {
+	color: black;
+}
+
+.calculatedAmount,
+.currencyCode {
+	font-size: 24px;
+}
+
+p {
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.resultDivHeadline {
+	text-align: center;
+}
+
+hr {
+	margin-top: 0;
+	background-color: #5eafaa;
+	height: 1.5px;
+}
+
+.phoneRow .col-4 {
+	padding-right: 0
+}
+
+.phoneRow .col-8 {
+	padding-left: 0
+}
+
+@media screen and (max-width:500px) {
+	.qouteForm {
+		padding: 20px 0px;
+	}
+	.resultDiv {
+		padding: 20px 20px;
+	}
+}
